@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "customer": {
+      "value": "ka"
+    },
+    "vmAdminUsername": {
+      "value": "kaadmin"
+    },
+    "applicationName": {
+      "value": "file"
+    },
+    "applicationRole1": {
+      "value": ""
+    },
+    "domainUsername": {
+      "value": "svc_domainjoin"
+    },
+    "domainToJoin": {
+      "value": "kadaster.workspace.nl"
+    },
+    "ouPath": {
+      "value": ""
+    },
+    "environment": {
+      "value": "a"
+    },
+    "zone": {
+      "value": "e"
+    },
+    "tier": {
+      "value": ""
+    },
+    "vnetEnvironment": {
+      "value": ""
+    },
+    "instanceSize": {
+      "value": "Standard_DS2_v2"
+    },
+    "clusterName": {
+      "value": ""
+    },
+    "sofsName": {
+      "value": ""
+    },
+    "shareName": {
+      "value": ""
+    },
+    "clusterSize": {
+      "value": ""
+    },
+    "vmAdminPassword": {
+      "value": ""
+    },
+    "domainPassword": {
+      "value": ""
+    },
+    "clusterIP": {
+      "value": ""
+    },
+    "privateIPRange": {
+      "value": ""
+    },
+    "instanceNumber": {
+      "value": ""
+    }
+  }
+}
